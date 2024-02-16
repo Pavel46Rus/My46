@@ -1,0 +1,120 @@
+/* basic */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* здесь взяли шрифты с google fonts  */
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    color:black;
+    border: 3px solid black;
+    background-color: #9999a31d
+    }
+
+.header-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.header-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1cm;
+}
+
+.header_social {
+    display: flex;
+    list-style-type: none;
+}
+
+
+.social_icon_vk,
+.social_icon_telegram,
+.social_icon_whatsUp {
+    width: 50px;
+    height: 50px;
+}
+
+.info-box {
+    margin-top: 50px;
+    display: flex;
+    margin-left: 1cm;
+    margin-right: -9cm;
+    border: 2px solid black;
+    background-color: #9999a32c;
+}
+
+.info-list>li {
+    padding: 8px;
+    margin-left: 50px;
+    padding-right: 50px;
+    list-style-type: none;
+    color: #99a39a;
+}
+
+.right>li {
+    color: black;
+}
+
+/* main */
+.main-wrapper {
+    padding-top: 30px;
+      background-color: #9999a32c;
+      border: 3px solid black;
+      margin-left: 7.4cm;
+      margin-right: 1cm;
+      color: black;
+}
+
+.main-box {
+    padding-left: 62px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 35px;
+}
+
+/* ==== */
+
+.main-content {
+    max-width: 64%;
+    padding-top: 20px;
+}
+
+
+.main-list:nth-child(1n) {
+    color: #8f8fa2;
+}
+
+.h2 {
+padding: 15px 500px;
+color: black;
+}
+
+.main-list-f {
+    color: black;
+}
+/* нужно добавить стили для контента */
+/* и стилизовать остальные секции */
+
+.skills {
+margin-top: 1cm;
+margin-left: 7.4cm;
+margin-right: 1cm;
+margin-bottom: 15px;
+border: 3px solid black;
+padding-top: 20px;
+padding-left: 50px;
+padding-bottom: 20px;
+background-color: #9999a31d;
+
+}
